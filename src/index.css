@@ -1,13 +1,72 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+.name{
+ width: 25%;
+ margin-right: 10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.username{
+  width: 25%;
+ }
+
+tr{
+  background-color: rgb(220, 220, 221);
+  color: black;
+  border: 0;
+  align-content: center;
+  text-align: center;
+  align-items: center;  
+
+}
+
+td{
+  background-color: white;
+  color: black;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.form{
+  width: 50%;
+  align-content: center;
+  text-align: center;
+  align-items: center; 
+  text-decoration: none;
+  justify-content: center;
+}
+
+table{
+ width: 70%;
+ margin-top: 20px;
+ margin-left:15%;
+}
+
+input{
+  border: 2px solid grey;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: large;
+}
+button{
+  cursor: pointer;
+  display: inline-block;
+  min-height: 1em;
+  outline: 0;
+  border: none;
+  vertical-align: baseline;
+  background: #e0e1e2 none;
+  color: rgba(0,0,0,.6);
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  margin: 0 0.25em 0 0;
+  padding: 0.78571429em 1.5em 0.78571429em;
+  text-transform: none;
+  text-shadow: none;
+  font-weight: 700;
+  line-height: 1em;
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0.28571429rem;
+  -webkit-box-shadow: 0 0 0 1px transparent inset, 0 0 0 0 rgb(34 36 38 / 15%) inset;
+  box-shadow: 0 0 0 1px transparent inset, 0 0 0 0 rgb(34 36 38 / 15%) inset;
 }
